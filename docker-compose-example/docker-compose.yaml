@@ -1,7 +1,7 @@
 version: "2"
 services:
   xl-deploy:
-    image: xebialabs/xl-deploy:10.1
+    image: xebialabs/xl-deploy:24.3
     container_name: xl-deploy
     ports:
      - "4516:4516"
@@ -12,7 +12,7 @@ services:
      - ACCEPT_EULA=Y
 
   xl-release:
-    image: xebialabs/xl-release:10.1
+    image: xebialabs/xl-release:24.3
     container_name: xl-release
     ports:
      - "5516:5516"
